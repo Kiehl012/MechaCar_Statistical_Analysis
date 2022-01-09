@@ -14,3 +14,5 @@ Based on the summary results for this model, we can say that vehicle length, gro
 ![Screen Shot 2022-01-09 at 1 54 48 PM](https://user-images.githubusercontent.com/90878911/148698578-e650bb24-4e7d-4bfc-ab74-5e2c179d5292.png) </br></br>
 
 Looking at the first table above, the variance of suspension coil PSI meets the requirement of 100 PSI or less. However, when we break this summary down by manufacturing lot (table 2), we can see that lot three has far exceeded the 100-pound allowance, while lots 1 and 2 are well within the allowed variance.
+
+test test test
