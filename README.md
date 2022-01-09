@@ -13,5 +13,21 @@ Based on the summary results for this model, we can say that vehicle length, gro
 #### Suspension Coil PSI (pounds per square inch) Data by Manufacturing Lot
 ![Screen Shot 2022-01-09 at 1 54 48 PM](https://user-images.githubusercontent.com/90878911/148698578-e650bb24-4e7d-4bfc-ab74-5e2c179d5292.png) </br></br>
 
-Looking at the first table above, the variance of suspension coil PSI meets the requirement of 100 PSI or less. However, when we break this summary down by manufacturing lot (table 2), we can see that lot three has far exceeded the 100-pound allowance, while lots 1 and 2 are well within the allowed variance.
+Looking at the first table above, the variance of suspension coil PSI meets the requirement of 100 PSI or less. However, when we break this summary down by manufacturing lot (table 2), we can see that lot three has far exceeded the 100-pound allowance, while lots 1 and 2 are well within the allowed variance. </br></br>
+
+## T-Tests on Suspension Coils
+#### All Lots
+![Screen Shot 2022-01-09 at 2 57 32 PM](https://user-images.githubusercontent.com/90878911/148700808-ab28b31d-71ca-4922-b9bc-a43090c258d1.png)
+#### Lot 1
+![Screen Shot 2022-01-09 at 2 57 42 PM](https://user-images.githubusercontent.com/90878911/148700812-bdc8671d-f940-43c0-aa8a-347efe99c7db.png)
+#### Lot 2
+![Screen Shot 2022-01-09 at 2 57 57 PM](https://user-images.githubusercontent.com/90878911/148700817-1dd7982e-d557-43ed-92a7-7e261b61365e.png)
+#### Lot 3
+![Screen Shot 2022-01-09 at 2 58 16 PM](https://user-images.githubusercontent.com/90878911/148700819-3801439b-4dc3-4c41-aa60-499720b5e0ac.png)</br>
+
+Given the t.test results above we can make conclude that:
+1. Using a significance level of < 0.05, there is no statistically significant difference between the mean PSI of our total sample data and a population mean of 1500 PSI.
+2. Using a significance level of < 0.05, there is no statistically significant difference between the mean PSI of coils from Lot1 and a population mean of 1500 PSI.
+3. Using a significance level of < 0.05, there is no statistically significant difference between the mean PSI of coils from Lot2 and a population mean of 1500 PSI.
+4. Using a significance level of < 0.05, there is a statistically significant difference between the mean PSI of coils from Lot3 and a population mean of 1500 PSI. 
 
