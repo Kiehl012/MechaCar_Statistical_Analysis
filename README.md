@@ -29,5 +29,24 @@ Given the t.test results above we can make conclude that:
 1. Using a significance level of < 0.05, there is no statistically significant difference between the mean PSI of our total sample data and a population mean of 1500 PSI.
 2. Using a significance level of < 0.05, there is no statistically significant difference between the mean PSI of coils from Lot1 and a population mean of 1500 PSI.
 3. Using a significance level of < 0.05, there is no statistically significant difference between the mean PSI of coils from Lot2 and a population mean of 1500 PSI.
-4. Using a significance level of < 0.05, there is a statistically significant difference between the mean PSI of coils from Lot3 and a population mean of 1500 PSI. 
+4. Using a significance level of < 0.05, there is a statistically significant difference between the mean PSI of coils from Lot3 and a population mean of 1500 PSI.</br><br>
+
+## Study Design: MechaCar vs Competition
+#### Overview
+For this study, let's assume that MechaCar produces high-end EVs. In high-end EVs, performance is often a major draw. Specifically, consumers and EV manufacturers alike are often very focused on the time it takes for the vehicle to accelerate from 0-60 miles per hour. So, a good way to compare MechaCar EVs to EVs from other manufacturers would to see how it's 0-60 time stacks up against the competition. However, it's important to make sure that the comparison's make sense. For example, if the given MechaCar model is a 4-door sedan, then it doesnt make sense to compare it to a Audi SUV EV. For the sake of this experiment, we will say that Tesla and Audi are the main EV competitors.</br>
+
+#### Hypotheses:
+Null Hypothesis: There is no difference between the 0-60 time of the MechaCar EVs and Tesla and Audi EVs.
+Alternative Hypothesis: There is a statistically significant difference between the 0-60 time of the MechaCar EVs and other manufacturers.</br>
+
+#### Statistical Test:
+Given that there are multiple manufacturers, it might seem like an ANOVA test would be a good fit, but we really want to compare MechaCar to the other manufactures, rather than how all three groups compare to each other. With this in mind, it makes more sense to us t-tests to compare 0-60 times of MechaCars to similar vehicles made by Tesla and Audi. This will tell help describe how MechaCar stacks up against both competitors individually.</br>
+
+#### Data Needed
+In order to perform this experiment, EV data is needed from each manufacturer. Specifically, we will need the model, vechicle class, drive type (awd, fwd, rwd etc.) and 0-60 time for each model from each manufacturer. Variables like vehicle class and drive type are there to ensure we are comparing similar vehicles across manufacturers.
+
+
+
+
+
 
